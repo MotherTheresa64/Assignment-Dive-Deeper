@@ -13,6 +13,7 @@ elif(num_two >= num_one) and (num_two >= num_three):
 else:
     largest = num_three
 
+#Task 2: Identify the Smallest
 if (num_one <= num_two) and (num_one <=num_three):
     smallest = num_one
 elif(num_two <=num_one) and (num_two <= num_three):
@@ -20,7 +21,7 @@ elif(num_two <=num_one) and (num_two <= num_three):
 else:
     smallest = num_three
 
-
+#Below are my print statements for each scenario
 if largest == num_one:
     print("The first number " + largest + " is the largest number")
 elif largest == num_two:
